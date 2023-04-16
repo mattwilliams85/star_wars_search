@@ -1,0 +1,13 @@
+.movieList {
+  color: var(--lightest-slate);
+  padding-bottom: 40px;
+}
+
+.header {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.empty {
+  margin-top: 32px;
+}

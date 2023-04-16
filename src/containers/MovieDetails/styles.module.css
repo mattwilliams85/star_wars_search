@@ -1,0 +1,48 @@
+.movieDetails {
+  padding-bottom: 40px;
+}
+
+.card {
+  padding: 24px;
+  box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  background: var(--light-navy);
+  border-radius: 4px;
+  margin-top: 16px;
+}
+
+.detail {
+  margin: 8px 0 16px;
+  color: #e5e5e5;
+}
+
+.button {
+  margin-top: 20px;
+  transition: all 0.3s;
+  border: 2px solid var(--yellow);
+  background: transparent;
+  color: var(--yellow);
+  font-size: 16px;
+  padding: 8px 20px;
+  height: 48px;
+  width: 300px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--yellow);
+  color: var(--dark-navy);
+}
+
+.button:hover .icon {
+  fill: var(--dark-navy);
+}
+
+.icon {
+  transition: all 0.3s;
+  height: 16px;
+  fill: var(--yellow);
+  margin-right: 8px;
+  transform: translateY(2.5px)
+}
