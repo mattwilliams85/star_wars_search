@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, Navigate } from "react-router-dom";
-import Search from './components/ Search';
+import Search from './components/Search';
 import MovieList from './containers/MovieList';
 import MovieDetails from './containers/MovieDetails';
 import styles from './styles.module.css';

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component 1`] = `
+<div>
+  <div
+    class="searchWrap"
+  >
+    <input
+      class="search"
+      placeholder="Search for Star Wars films"
+      value=""
+    />
+    <svg
+      class="icon searchIcon"
+    >
+      icon-search.svg
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `
+<div>
+  <div
+    class="searchWrap"
+  >
+    <input
+      class="search"
+      placeholder="Search for Star Wars films"
+      value=""
+    />
+    <svg
+      class="icon searchIcon"
+    >
+      icon-search.svg
+    </svg>
+  </div>
+</div>
+`;

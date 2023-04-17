@@ -21,7 +21,7 @@ const MovieCard: React.FC<Props> = ({ movie }) => {
       </div>
       <div>
         <h3 className={styles.title}>{movie.title}</h3>
-        <div className={styles.subtext}>Directed by {movie.director} {`(${formatDate(movie.release_date)})`}</div>
+        <div className={styles.subtext} data-testid="director">Directed by {movie.director} {`(${formatDate(movie.release_date)})`}</div>
       </div>
     </Link>
   );

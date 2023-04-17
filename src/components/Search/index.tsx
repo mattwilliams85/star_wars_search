@@ -38,6 +38,8 @@ const Search: React.FC<Props> = () => {
   return (
     <div className={styles.searchWrap}>
       <input
+        role="textbox"
+        aria-label="search"
         placeholder='Search for Star Wars films'
         onChange={e => setSearchInput(e.target.value)}
         value={searchInput}

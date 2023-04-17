@@ -1,5 +1,4 @@
 import { useSelector } from 'react-redux';
-
 import MovieCard from './MovieCard';
 import { MovieType } from '../../types/movie';
 import { SearchType } from '../../types/search';
